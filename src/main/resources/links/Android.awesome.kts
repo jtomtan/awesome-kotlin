@@ -439,6 +439,12 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "bitbill/bittool-signer-android"
+      desc = "Android offline transaction signer with Kotlin application code and a shared JavaScript engine, exchanging signing requests and signatures through QR codes."
+      setPlatforms(ANDROID)
+      setTags("kotlin", "android", "cryptocurrency", "qr-code")
+    }
+    link {
       github = "HarlonWang/TrendingAI"
       desc = "Global tech trends from GitHub Trending, Hacker News and Product Hunt, picked and summarized by AI. Built with Kotlin Multiplatform and Compose Multiplatform for Android and iOS."
       setTags("kotlin-multiplatform", "compose-multiplatform", "android", "ios", "ai")
